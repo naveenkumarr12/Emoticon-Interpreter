@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: auto;
+  width: 400px;
+  padding: 1rem;
+}
+
+#meaning {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: large;
+  border: 1px solid grey;
+  border-radius: 1.5rem;
+  max-width: 350px;
+  margin: 1rem auto;
+  background-color: rgb(214, 231, 227);
+}
+
+ul {
+  align-items: center;
+  margin: auto;
+  padding-inline-start: 0px;
+  max-width: 400px;
+}
+
+ul li {
+  display: inline;
+  margin-top: 1rem;
+}
+
+#emojis {
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 30px;
+}
+
+@media (max-width: 400px) {
+  input {
+    width: 300px;
+  }
+}
